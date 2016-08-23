@@ -86,9 +86,9 @@ For that I just passed the path to my Python3 binary into a YCM variable in my .
 
     let g:ycm_python_binary_path = '/usr/bin/python3'
     
-The rest of the work was just mapping keys and configuring some Plugin variables. I set <tab> to 
-expand snippets, and <enter> to effectively fulfill the terminal tab completion function in YouCompleteMe.
-My <leader> key is set to the space key. And <leader>gd is set to display documentation about whatever my 
+The rest of the work was just mapping keys and configuring some Plugin variables. I set *tab* to 
+expand snippets, and *enter* to effectively fulfill the terminal tab completion function in YouCompleteMe.
+My *leader* key is set to the space key. And *leader*gd is set to display documentation about whatever my 
 cursor is on in the proper language.
 
 I should also mention that in order to use vim-go for golang, it's necessary to include
